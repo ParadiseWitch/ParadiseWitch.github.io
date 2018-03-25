@@ -6,20 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://paradisewitch.github.io">
-  <title>hexo和git | ParadiseWitch</title>
+  <title>hexo和git搭建博客 | ParadiseWitch</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="这篇文章仅仅给自己用hexo和git搭建博客的要点做一个总结和复习并非教程（太菜了就别误人子弟。。）">
+<meta name="keywords" content="随笔,hexo,git,blog">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo和git">
+<meta property="og:title" content="hexo和git搭建博客">
 <meta property="og:url" content="https://paradisewitch.github.io/2018/03/10/第一篇/index.html">
 <meta property="og:site_name" content="ParadiseWitch">
 <meta property="og:description" content="这篇文章仅仅给自己用hexo和git搭建博客的要点做一个总结和复习并非教程（太菜了就别误人子弟。。）">
 <meta property="og:locale" content="zh-cn">
 <meta property="og:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520711387895&di=39f2b6347b59ac2d51af944c6ad1019c&imgtype=0&src=http%3A%2F%2Fup.enterdesk.com%2Fedpic_source%2F65%2Fda%2F19%2F65da1952d4aa9efbeb6e5ccca7a266fe.jpg">
-<meta property="og:image" content="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021233157224-1386748377.png">
-<meta property="og:updated_time" content="2018-03-25T10:19:12.662Z">
+<meta property="og:image" content="https://s1.ax1x.com/2018/03/25/9L97TO.png">
+<meta property="og:updated_time" content="2018-03-25T13:09:42.591Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo和git">
+<meta name="twitter:title" content="hexo和git搭建博客">
 <meta name="twitter:description" content="这篇文章仅仅给自己用hexo和git搭建博客的要点做一个总结和复习并非教程（太菜了就别误人子弟。。）">
 <meta name="twitter:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520711387895&di=39f2b6347b59ac2d51af944c6ad1019c&imgtype=0&src=http%3A%2F%2Fup.enterdesk.com%2Fedpic_source%2F65%2Fda%2F19%2F65da1952d4aa9efbeb6e5ccca7a266fe.jpg">
   
@@ -166,7 +167,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      hexo和git
+      hexo和git搭建博客
     </h1>
   
 
@@ -185,8 +186,8 @@
 <blockquote>
 <p>这篇文章仅仅给自己用hexo和git搭建博客的要点做一个总结和复习<br><strong>并非教程</strong>（太菜了就别误人子弟。。）<br><a id="more"></a><br>我自己看的教程链接，几乎都是知乎上的：<br><br>    <a href="https://zhuanlan.zhihu.com/p/29101214?utm_source=com.google.android.apps.translate&amp;utm_medium=social" target="_blank" rel="noopener">Hexo快速部署教程</a><br><br>    <a href="https://zhuanlan.zhihu.com/p/28329874?utm_source=com.tencent.tim&amp;utm_medium=social" target="_blank" rel="noopener">Hexo与Github搭建个人博客</a><br><br>    <a href="https://zhuanlan.zhihu.com/p/25729240?utm_source=com.tencent.tim&amp;utm_medium=social" target="_blank" rel="noopener">教你免费搭建个人博客，Hexo&amp;Github</a></p>
 </blockquote>
-<pre><code>&lt;br&gt; 侵删
-</code></pre><hr>
+<p>侵删</p>
+<hr>
 <h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><p>1.安装<a href="https://git-scm.com/" target="_blank" rel="noopener">GIT</a></p>
 <p>2.安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js</a></p>
 <p>3.安装hexo</p>
@@ -200,14 +201,14 @@
 <p>6.部署</p>
 <ul>
 <li>创建仓库</li>
-<li><p>添加SSH Key<br><img src="https://images2017.cnblogs.com/blog/1108615/201710/1108615-20171021233157224-1386748377.png" alt="将Hexo与Github page联系起来"></p>
+<li><p>添加SSH Key<br><img src="https://s1.ax1x.com/2018/03/25/9L97TO.png" alt="将Hexo与Github page联系起来"></p>
 <p><code>ssh -keygen -t rsa -C &quot;your_email@example.com&quot;  // 一直回车直至密钥生成成功</code></p>
 </li>
 <li><p>测试SSH key</p>
 <p> <code>ssh ‐T git@github.com</code></p>
-<p> 成功会看见钥匙变绿</p>
 </li>
 </ul>
+<p>成功会看见钥匙变绿</p>
 <p>问题：假如ssh-key配置失败，那么只要以下步骤就能完全解决</p>
 <p>首先，清除所有的key-pair<br>ssh-add -D<br>rm -r ~/.ssh<br>删除你在github中的public-key</p>
 <p>重新生成ssh密钥对<br>ssh-keygen -t rsa -C “<a href="mailto:xxx@xxx.com" target="_blank" rel="noopener">xxx@xxx.com</a>“</p>
@@ -263,6 +264,29 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">git</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">blog</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -439,6 +463,22 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">git</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">blog</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
