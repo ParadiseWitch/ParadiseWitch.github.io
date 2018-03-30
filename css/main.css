@@ -188,7 +188,7 @@ body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
-  color: #555;
+  color: #00da9d;
   background: #fff;
 }
 @media (max-width: 767px) {
@@ -277,15 +277,15 @@ p {
   margin: 0 0 20px 0;
 }
 a {
-  color: #555;
+  color: #00da9d;
   text-decoration: none;
   outline: none;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #e55935;
   word-wrap: break-word;
 }
 a:hover {
-  color: #222;
-  border-bottom-color: #222;
+  color: #a3d9db;
+  border-bottom-color: #a3d9db;
 }
 blockquote {
   margin: 0;
@@ -306,7 +306,7 @@ hr {
 }
 blockquote {
   padding: 0 15px;
-  color: #666;
+  color: #f1d4c6;
   border-left: 4px solid #ddd;
 }
 blockquote cite::before {
@@ -321,7 +321,7 @@ dd {
   padding: 0;
 }
 kbd {
-  border: 1px solid #ccc;
+  border: 1px solid #e55935;
   border-radius: 0.2em;
   box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1);
   background-color: #f9f9f9;
@@ -386,7 +386,7 @@ kbd {
 .translation {
   margin-top: -20px;
   font-size: 14px;
-  color: #999;
+  color: #e55935;
 }
 .scrollbar-measure {
   width: 100px;
@@ -498,7 +498,7 @@ code {
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #555;
+  color: #00da9d;
   background: #eee;
   border-radius: 3px;
   font-size: 13px;
@@ -687,14 +687,14 @@ pre .javascript .function {
 .page-post-detail .post-type-quote blockquote::before {
   top: -20px;
   background-image: url("../images/quote-l.svg");
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #e55935;
 }
 .blockquote-center::after,
 .page-home .post-type-quote blockquote::after,
 .page-post-detail .post-type-quote blockquote::after {
   bottom: -20px;
   background-image: url("../images/quote-r.svg");
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #e55935;
   background-position: 100% 8px;
 }
 .blockquote-center p,
@@ -921,7 +921,7 @@ pre .javascript .function {
 }
 .post-body .tabs ul.nav-tabs li.tab.active a {
   cursor: default;
-  color: #555;
+  color: #00da9d;
 }
 .post-body .tabs .tab-content {
   background-color: #fff;
@@ -941,8 +941,8 @@ pre .javascript .function {
   padding: 0 20px;
   font-size: 14px;
   color: #fff;
-  background: #222;
-  border: 2px solid #222;
+  background: #a3d9db;
+  border: 2px solid #a3d9db;
   text-decoration: none;
   border-radius: 0;
   transition-property: background-color;
@@ -952,8 +952,8 @@ pre .javascript .function {
   line-height: 2;
 }
 .btn:hover {
-  border-color: #222;
-  color: #222;
+  border-color: #a3d9db;
+  color: #a3d9db;
   background: #fff;
 }
 .btn +.btn {
@@ -967,7 +967,7 @@ pre .javascript .function {
   display: block;
   width: 22px;
   height: 2px;
-  background: #555;
+  background: #00da9d;
   border-radius: 1px;
 }
 .btn-bar+.btn-bar {
@@ -1011,7 +1011,7 @@ pre .javascript .function {
 .pagination .prev:hover,
 .pagination .next:hover,
 .pagination .page-number:hover {
-  border-top-color: #222;
+  border-top-color: #a3d9db;
 }
 .pagination .space {
   padding: 0;
@@ -1025,8 +1025,8 @@ pre .javascript .function {
 }
 .pagination .page-number.current {
   color: #fff;
-  background: #ccc;
-  border-top-color: #ccc;
+  background: #e55935;
+  border-top-color: #e55935;
 }
 @media (max-width: 767px) {
   .pagination {
@@ -1043,7 +1043,7 @@ pre .javascript .function {
   .pagination .prev:hover,
   .pagination .next:hover,
   .pagination .page-number:hover {
-    border-bottom-color: #222;
+    border-bottom-color: #a3d9db;
   }
 }
 .comments {
@@ -1064,7 +1064,7 @@ pre .javascript .function {
   z-index: 1050;
   padding: 0 6px;
   width: 24px;
-  background: #222;
+  background: #a3d9db;
   font-size: 12px;
   opacity: 1;
   color: #fff;
@@ -1097,7 +1097,7 @@ pre .javascript .function {
 }
 .headband {
   height: 3px;
-  background: #222;
+  background: #a3d9db;
 }
 .site-meta {
   margin: 0;
@@ -1113,7 +1113,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #fff;
-  background: #222;
+  background: #a3d9db;
   border-bottom: none;
 }
 .brand:hover {
@@ -1136,7 +1136,7 @@ pre .javascript .function {
 .site-subtitle {
   margin-top: 10px;
   font-size: 13px;
-  color: #999;
+  color: #e55935;
 }
 .use-motion .brand {
   opacity: 0;
@@ -1210,7 +1210,7 @@ pre .javascript .function {
   transition-delay: 0s;
 }
 .menu .menu-item a:hover {
-  border-bottom-color: #222;
+  border-bottom-color: #a3d9db;
 }
 .menu .menu-item .fa {
   margin-right: 5px;
@@ -1238,7 +1238,7 @@ pre .javascript .function {
   margin: -20px auto 15px;
   text-align: center;
   font-size: 14px;
-  color: #999;
+  color: #e55935;
   font-weight: bold;
   line-height: 1;
 }
@@ -1304,7 +1304,7 @@ pre .javascript .function {
 .posts-expand .post-body h6 .header-anchor {
   float: right;
   margin-left: 10px;
-  color: #ccc;
+  color: #e55935;
   border-bottom-style: none;
   visibility: hidden;
 }
@@ -1399,7 +1399,7 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
   transition-property: border;
-  border-bottom: 1px dashed #ccc;
+  border-bottom: 1px dashed #e55935;
 }
 .posts-collapse .post-header::before {
   content: " ";
@@ -1418,10 +1418,10 @@ pre .javascript .function {
   transition-property: background;
 }
 .posts-collapse .post-header:hover {
-  border-bottom-color: #666;
+  border-bottom-color: #f1d4c6;
 }
 .posts-collapse .post-header:hover::before {
-  background: #222;
+  background: #a3d9db;
 }
 .posts-collapse .post-meta {
   position: absolute;
@@ -1443,7 +1443,7 @@ pre .javascript .function {
   opacity: 0.6;
 }
 .posts-collapse .post-title a {
-  color: #666;
+  color: #f1d4c6;
   border-bottom: none;
 }
 .page-home .post-type-quote .post-header,
@@ -1460,7 +1460,7 @@ pre .javascript .function {
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: #555;
+  color: #00da9d;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -1496,7 +1496,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
-  color: #999;
+  color: #e55935;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
@@ -1507,7 +1507,7 @@ pre .javascript .function {
   padding: 3px;
 }
 .posts-expand .post-meta .post-category-list-link {
-  color: #999;
+  color: #e55935;
 }
 .posts-expand .post-meta .post-description {
   font-size: 14px;
@@ -1577,11 +1577,11 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #555;
+  color: #00da9d;
   border-bottom: none;
 }
 .post-nav-item a:hover {
-  color: #222;
+  color: #a3d9db;
   border-bottom: none;
 }
 .post-nav-item a:active {
@@ -1611,7 +1611,7 @@ pre .javascript .function {
   margin: 80px auto 60px;
   width: 8%;
   height: 1px;
-  background: #ccc;
+  background: #e55935;
   text-align: center;
 }
 .post:last-child .post-eof.post-eof.post-eof {
@@ -1666,12 +1666,12 @@ pre .javascript .function {
   width: 0;
   z-index: 1040;
   box-shadow: inset 0 2px 6px #000;
-  background: #222;
+  background: #a3d9db;
   -webkit-transform: translateZ(0);
 }
 .sidebar a {
-  color: #999;
-  border-bottom-color: #555;
+  color: #e55935;
+  border-bottom-color: #00da9d;
 }
 .sidebar a:hover {
   color: #eee;
@@ -1689,7 +1689,7 @@ pre .javascript .function {
 .sidebar-inner {
   position: relative;
   padding: 20px 10px;
-  color: #999;
+  color: #e55935;
   text-align: center;
 }
 .site-overview-wrap {
@@ -1706,7 +1706,7 @@ pre .javascript .function {
   width: 14px;
   height: 14px;
   padding: 5px;
-  background: #222;
+  background: #a3d9db;
   line-height: 0;
   z-index: 1050;
   cursor: pointer;
@@ -1740,7 +1740,7 @@ pre .javascript .function {
   padding: 2px;
   max-width: 96px;
   height: auto;
-  border: 2px solid #333;
+  border: 2px solid #f5f1ee;
 /* 头像圆形 */
   border-radius: 80px;
   -webkit-border-radius: 80px;
@@ -1855,7 +1855,7 @@ img:hover {
 .site-state-item {
   display: inline-block;
   padding: 0 15px;
-  border-left: 1px solid #333;
+  border-left: 1px solid #f5f1ee;
 }
 .site-state-item:first-child {
   border-left: none;
@@ -1903,7 +1903,7 @@ img:hover {
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-bottom-color: #555;
+  border-bottom-color: #00da9d;
   font-size: 13px;
 }
 .links-of-author a:before {
@@ -1914,7 +1914,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #05ff47;
+  background: #04ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1949,7 +1949,7 @@ img:hover {
   cursor: pointer;
   border-bottom: 1px solid transparent;
   font-size: 14px;
-  color: #555;
+  color: #00da9d;
 }
 .sidebar-nav li:hover {
   color: #f5f5f5;
@@ -1961,11 +1961,11 @@ img:hover {
   margin-left: 10px;
 }
 .sidebar-nav .sidebar-nav-active {
-  color: #87daff;
-  border-bottom-color: #87daff;
+  color: #041b21;
+  border-bottom-color: #041b21;
 }
 .sidebar-nav .sidebar-nav-active:hover {
-  color: #87daff;
+  color: #041b21;
 }
 .sidebar-panel {
   display: none;
@@ -1975,7 +1975,7 @@ img:hover {
 }
 .post-toc-empty {
   font-size: 14px;
-  color: #666;
+  color: #f1d4c6;
 }
 .post-toc-wrap {
   overflow: hidden;
@@ -1998,12 +1998,12 @@ img:hover {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
   transition-property: all;
-  color: #999;
-  border-bottom-color: #555;
+  color: #e55935;
+  border-bottom-color: #00da9d;
 }
 .post-toc ol a:hover {
-  color: #ccc;
-  border-bottom-color: #ccc;
+  color: #e55935;
+  border-bottom-color: #e55935;
 }
 .post-toc .nav-item {
   overflow: hidden;
@@ -2025,18 +2025,18 @@ img:hover {
   display: block;
 }
 .post-toc .nav .active > a {
-  color: #87daff;
-  border-bottom-color: #87daff;
+  color: #041b21;
+  border-bottom-color: #041b21;
 }
 .post-toc .nav .active-current > a {
-  color: #87daff;
+  color: #041b21;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #87daff;
+  color: #041b21;
 }
 .footer {
   font-size: 14px;
-  color: #999;
+  color: #e55935;
 }
 .footer img {
   border: none;
@@ -2472,7 +2472,7 @@ img:hover {
   width: 10px;
   height: 10px;
   opacity: 0.5;
-  background: #555;
+  background: #00da9d;
   border: 1px solid #fff;
   border-radius: 50%;
 }
@@ -2672,7 +2672,7 @@ img:hover {
   }
 }
 .page-post-detail .sidebar-toggle-line {
-  background: #87daff;
+  background: #041b21;
 }
 .page-post-detail .comments {
   overflow: hidden;
@@ -2697,7 +2697,7 @@ embed {
 .custom-logo .site-title {
   margin: 10px auto 0;
   font-size: 24px;
-  color: #222;
+  color: #a3d9db;
 }
 .custom-logo .site-title a {
   border: none;
