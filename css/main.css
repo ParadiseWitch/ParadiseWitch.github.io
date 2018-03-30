@@ -188,7 +188,7 @@ body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
-  color: #00da9d;
+  color: #fff;
   background: #fff;
 }
 @media (max-width: 767px) {
@@ -277,7 +277,7 @@ p {
   margin: 0 0 20px 0;
 }
 a {
-  color: #00da9d;
+  color: #fff;
   text-decoration: none;
   outline: none;
   border-bottom: 1px solid #e55935;
@@ -498,7 +498,7 @@ code {
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #00da9d;
+  color: #fff;
   background: #eee;
   border-radius: 3px;
   font-size: 13px;
@@ -921,7 +921,7 @@ pre .javascript .function {
 }
 .post-body .tabs ul.nav-tabs li.tab.active a {
   cursor: default;
-  color: #00da9d;
+  color: #fff;
 }
 .post-body .tabs .tab-content {
   background-color: #fff;
@@ -967,7 +967,7 @@ pre .javascript .function {
   display: block;
   width: 22px;
   height: 2px;
-  background: #00da9d;
+  background: #fff;
   border-radius: 1px;
 }
 .btn-bar+.btn-bar {
@@ -1460,7 +1460,7 @@ pre .javascript .function {
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: #00da9d;
+  color: #fff;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -1577,7 +1577,7 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #00da9d;
+  color: #fff;
   border-bottom: none;
 }
 .post-nav-item a:hover {
@@ -1671,7 +1671,7 @@ pre .javascript .function {
 }
 .sidebar a {
   color: #e55935;
-  border-bottom-color: #00da9d;
+  border-bottom-color: #fff;
 }
 .sidebar a:hover {
   color: #eee;
@@ -1903,7 +1903,7 @@ img:hover {
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-bottom-color: #00da9d;
+  border-bottom-color: #fff;
   font-size: 13px;
 }
 .links-of-author a:before {
@@ -1914,7 +1914,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #04ffff;
+  background: #ffb1ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1949,7 +1949,7 @@ img:hover {
   cursor: pointer;
   border-bottom: 1px solid transparent;
   font-size: 14px;
-  color: #00da9d;
+  color: #fff;
 }
 .sidebar-nav li:hover {
   color: #f5f5f5;
@@ -1999,7 +1999,7 @@ img:hover {
   transition-delay: 0s;
   transition-property: all;
   color: #e55935;
-  border-bottom-color: #00da9d;
+  border-bottom-color: #fff;
 }
 .post-toc ol a:hover {
   color: #e55935;
@@ -2472,7 +2472,7 @@ img:hover {
   width: 10px;
   height: 10px;
   opacity: 0.5;
-  background: #00da9d;
+  background: #fff;
   border: 1px solid #fff;
   border-radius: 50%;
 }
