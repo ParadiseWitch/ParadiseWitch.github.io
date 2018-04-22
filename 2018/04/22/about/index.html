@@ -79,18 +79,15 @@
 
 
 
-<meta name="description" content="AboutMe    喜欢做视频，喜欢探索未知的世界">
 <meta name="keywords" content="关于,留言">
 <meta property="og:type" content="article">
 <meta property="og:title" content="留言板">
 <meta property="og:url" content="https://paradisewitch.github.io/2018/04/22/about/index.html">
 <meta property="og:site_name" content="ParadiseWitch">
-<meta property="og:description" content="AboutMe    喜欢做视频，喜欢探索未知的世界">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-22T04:53:28.606Z">
+<meta property="og:updated_time" content="2018-04-22T05:21:28.278Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="留言板">
-<meta name="twitter:description" content="AboutMe    喜欢做视频，喜欢探索未知的世界">
 
 
 
@@ -152,6 +149,8 @@
 
 <link href="css/styles.css" rel="stylesheet">
 
+<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
 
 
@@ -384,8 +383,28 @@
       
 
       
-        <h3 id="AboutMe"><a href="#AboutMe" class="headerlink" title="AboutMe"></a>AboutMe</h3><p><br><br>    <span style="color: #f699b4">喜欢做视频，喜欢探索未知的世界</span><br><br></p>
-<embed src="http://music.163.com/song/media/outer/url?id=30569197.mp3" hidden="false" autostart="true" loop="true">
+        <p><br><br><a id="more"></a></p>
+<h1 id="AboutMe"><a href="#AboutMe" class="headerlink" title="AboutMe"></a>AboutMe</h1><p><br><br>    <span style="color: #f699b4">喜欢做视频，喜欢探索未知的世界</span><br><br><br>
+        <div id="aplayer-xQAKXsTG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-xQAKXsTG"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "힐러",
+              author: "V.A.",
+              url: "http://music.163.com/song/media/outer/url?id=30569197.mp3",
+              pic: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524383767683&di=83c9391cf0a95b9c456f9f4d3fb401b8&imgtype=0&src=http%3A%2F%2Fimg.1ting.com%2Fimages%2Fspecial%2F365%2F246cca3d81f78798433680a245182894.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script></p>
 
       
     </div>
@@ -596,7 +615,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#AboutMe"><span class="nav-number">1.</span> <span class="nav-text">AboutMe</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#AboutMe"><span class="nav-number">1.</span> <span class="nav-text">AboutMe</span></a></li></ol></div>
             
 
           </div>
