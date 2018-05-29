@@ -186,7 +186,7 @@ th {
 body {
   position: relative;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 2;
   color: #000;
   background: #fff;
@@ -203,7 +203,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 h1,
@@ -280,12 +280,12 @@ a {
   color: #000;
   text-decoration: none;
   outline: none;
-  border-bottom: 1px solid #e55935;
+  border-bottom: 1px solid #000;
   word-wrap: break-word;
 }
 a:hover {
-  color: #dfbeb9;
-  border-bottom-color: #dfbeb9;
+  color: #e2ddd7;
+  border-bottom-color: #e2ddd7;
 }
 blockquote {
   margin: 0;
@@ -306,7 +306,7 @@ hr {
 }
 blockquote {
   padding: 0 15px;
-  color: #f1d4c6;
+  color: #000;
   border-left: 4px solid #ddd;
 }
 blockquote cite::before {
@@ -321,7 +321,7 @@ dd {
   padding: 0;
 }
 kbd {
-  border: 1px solid #e55935;
+  border: 1px solid #d0d0d0;
   border-radius: 0.2em;
   box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1);
   background-color: #f9f9f9;
@@ -386,7 +386,7 @@ kbd {
 .translation {
   margin-top: -20px;
   font-size: 14px;
-  color: #e55935;
+  color: #000;
 }
 .scrollbar-measure {
   width: 100px;
@@ -687,14 +687,14 @@ pre .javascript .function {
 .page-post-detail .post-type-quote blockquote::before {
   top: -20px;
   background-image: url("../images/quote-l.svg");
-  border-top: 1px solid #e55935;
+  border-top: 1px solid #d0d0d0;
 }
 .blockquote-center::after,
 .page-home .post-type-quote blockquote::after,
 .page-post-detail .post-type-quote blockquote::after {
   bottom: -20px;
   background-image: url("../images/quote-r.svg");
-  border-bottom: 1px solid #e55935;
+  border-bottom: 1px solid #d0d0d0;
   background-position: 100% 8px;
 }
 .blockquote-center p,
@@ -941,8 +941,8 @@ pre .javascript .function {
   padding: 0 20px;
   font-size: 14px;
   color: #fff;
-  background: #dfbeb9;
-  border: 2px solid #dfbeb9;
+  background: #3b9dba;
+  border: 2px solid #3b9dba;
   text-decoration: none;
   border-radius: 0;
   transition-property: background-color;
@@ -952,8 +952,8 @@ pre .javascript .function {
   line-height: 2;
 }
 .btn:hover {
-  border-color: #dfbeb9;
-  color: #dfbeb9;
+  border-color: #e2ddd7;
+  color: #e2ddd7;
   background: #fff;
 }
 .btn +.btn {
@@ -1011,7 +1011,7 @@ pre .javascript .function {
 .pagination .prev:hover,
 .pagination .next:hover,
 .pagination .page-number:hover {
-  border-top-color: #dfbeb9;
+  border-top-color: #e2ddd7;
 }
 .pagination .space {
   padding: 0;
@@ -1025,8 +1025,8 @@ pre .javascript .function {
 }
 .pagination .page-number.current {
   color: #fff;
-  background: #e55935;
-  border-top-color: #e55935;
+  background: #d0d0d0;
+  border-top-color: #d0d0d0;
 }
 @media (max-width: 767px) {
   .pagination {
@@ -1043,7 +1043,7 @@ pre .javascript .function {
   .pagination .prev:hover,
   .pagination .next:hover,
   .pagination .page-number:hover {
-    border-bottom-color: #dfbeb9;
+    border-bottom-color: #e2ddd7;
   }
 }
 .comments {
@@ -1064,7 +1064,7 @@ pre .javascript .function {
   z-index: 1050;
   padding: 0 6px;
   width: 24px;
-  background: #dfbeb9;
+  background: #e2ddd7;
   font-size: 12px;
   opacity: 1;
   color: #fff;
@@ -1097,7 +1097,7 @@ pre .javascript .function {
 }
 .headband {
   height: 3px;
-  background: #dfbeb9;
+  background: #000;
 }
 .site-meta {
   margin: 0;
@@ -1112,12 +1112,12 @@ pre .javascript .function {
   position: relative;
   display: inline-block;
   padding: 0 40px;
-  color: #fff;
-  background: #dfbeb9;
+  color: #000;
+  background: $brand-bg;
   border-bottom: none;
 }
 .brand:hover {
-  color: #fff;
+  color: #cf5044;
 }
 .logo {
   display: inline-block;
@@ -1136,7 +1136,7 @@ pre .javascript .function {
 .site-subtitle {
   margin-top: 10px;
   font-size: 13px;
-  color: #e55935;
+  color: #000;
 }
 .use-motion .brand {
   opacity: 0;
@@ -1210,7 +1210,7 @@ pre .javascript .function {
   transition-delay: 0s;
 }
 .menu .menu-item a:hover {
-  border-bottom-color: #dfbeb9;
+  border-bottom-color: #3b9dba;
 }
 .menu .menu-item .fa {
   margin-right: 5px;
@@ -1237,8 +1237,8 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: -20px auto 15px;
   text-align: center;
-  font-size: 14px;
-  color: #e55935;
+  font-size: 15px;
+  color: #000;
   font-weight: bold;
   line-height: 1;
 }
@@ -1304,7 +1304,7 @@ pre .javascript .function {
 .posts-expand .post-body h6 .header-anchor {
   float: right;
   margin-left: 10px;
-  color: #e55935;
+  color: #d0d0d0;
   border-bottom-style: none;
   visibility: hidden;
 }
@@ -1399,7 +1399,7 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
   transition-property: border;
-  border-bottom: 1px dashed #e55935;
+  border-bottom: 1px dashed #d0d0d0;
 }
 .posts-collapse .post-header::before {
   content: " ";
@@ -1418,10 +1418,10 @@ pre .javascript .function {
   transition-property: background;
 }
 .posts-collapse .post-header:hover {
-  border-bottom-color: #f1d4c6;
+  border-bottom-color: #000;
 }
 .posts-collapse .post-header:hover::before {
-  background: #dfbeb9;
+  background: #e2ddd7;
 }
 .posts-collapse .post-meta {
   position: absolute;
@@ -1443,7 +1443,7 @@ pre .javascript .function {
   opacity: 0.6;
 }
 .posts-collapse .post-title a {
-  color: #f1d4c6;
+  color: #000;
   border-bottom: none;
 }
 .page-home .post-type-quote .post-header,
@@ -1496,7 +1496,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
-  color: #e55935;
+  color: #000;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
@@ -1507,7 +1507,7 @@ pre .javascript .function {
   padding: 3px;
 }
 .posts-expand .post-meta .post-category-list-link {
-  color: #e55935;
+  color: #000;
 }
 .posts-expand .post-meta .post-description {
   font-size: 14px;
@@ -1581,7 +1581,7 @@ pre .javascript .function {
   border-bottom: none;
 }
 .post-nav-item a:hover {
-  color: #dfbeb9;
+  color: #e2ddd7;
   border-bottom: none;
 }
 .post-nav-item a:active {
@@ -1611,7 +1611,7 @@ pre .javascript .function {
   margin: 80px auto 60px;
   width: 8%;
   height: 1px;
-  background: #e55935;
+  background: #d0d0d0;
   text-align: center;
 }
 .post:last-child .post-eof.post-eof.post-eof {
@@ -1786,11 +1786,11 @@ pre .javascript .function {
   width: 0;
   z-index: 1040;
   box-shadow: inset 0 2px 6px #000;
-  background: #dfbeb9;
+  background: #e2ddd7;
   -webkit-transform: translateZ(0);
 }
 .sidebar a {
-  color: #e55935;
+  color: #000;
   border-bottom-color: #000;
 }
 .sidebar a:hover {
@@ -1809,7 +1809,7 @@ pre .javascript .function {
 .sidebar-inner {
   position: relative;
   padding: 20px 10px;
-  color: #e55935;
+  color: #000;
   text-align: center;
 }
 .site-overview-wrap {
@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 14px;
   height: 14px;
   padding: 5px;
-  background: #dfbeb9;
+  background: #e2ddd7;
   line-height: 0;
   z-index: 1050;
   cursor: pointer;
@@ -2034,7 +2034,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f9f6ff;
+  background: #1360ab;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2095,7 +2095,7 @@ img:hover {
 }
 .post-toc-empty {
   font-size: 14px;
-  color: #f1d4c6;
+  color: #000;
 }
 .post-toc-wrap {
   overflow: hidden;
@@ -2118,12 +2118,12 @@ img:hover {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
   transition-property: all;
-  color: #e55935;
+  color: #000;
   border-bottom-color: #000;
 }
 .post-toc ol a:hover {
-  color: #e55935;
-  border-bottom-color: #e55935;
+  color: #d0d0d0;
+  border-bottom-color: #d0d0d0;
 }
 .post-toc .nav-item {
   overflow: hidden;
@@ -2156,7 +2156,7 @@ img:hover {
 }
 .footer {
   font-size: 14px;
-  color: #e55935;
+  color: #000;
 }
 .footer img {
   border: none;
@@ -2817,7 +2817,7 @@ embed {
 .custom-logo .site-title {
   margin: 10px auto 0;
   font-size: 24px;
-  color: #dfbeb9;
+  color: #e2ddd7;
 }
 .custom-logo .site-title a {
   border: none;
